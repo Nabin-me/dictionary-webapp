@@ -16,11 +16,11 @@
 
 - 💡 Search and Learn New Words
 
-- 🔁Word of the day to learn and absorb new words
+- 🔁Word of the day to learn and absorb new words (In Progress)
 
-- 🔥 Interactive Quizzes
+- 🔥 Interactive Quizzes (In Progress)
 
-- 🛠️More upcoming features!
+- 🛠️More upcoming features! (In Progress)
 
 ## 🏗️ Project Structure
 
@@ -36,9 +36,6 @@
 
 ├── public/ # Static files
 
-├── tests/ # Test files
-
-└── ...config files
 
 ```
 
