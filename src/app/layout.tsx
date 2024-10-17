@@ -10,7 +10,7 @@ const aspektaSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "MyDictionary | A dictionary app",
+  title: "Vocabulicious | A vocabulary building app",
   description: "A dictionary app built with Next.js and Tailwind CSS",
 };
 
@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${aspektaSans.variable} antialiased`}>
         <header className="p-10 flex justify-end space-x-4 text-xl">
           <Link href="#" className="hover:underline ">
-            Dictionary
+            Vocabulicious
           </Link>
         </header>
         {children}
