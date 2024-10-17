@@ -21,13 +21,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${aspektaSans.variable} antialiased`}>
-        <header className="p-10 flex justify-end space-x-4 text-xl">
-          <Link href="#" className="hover:underline ">
-            Vocabulicious
+      <body
+        className={`${aspektaSans.variable} antialiased flex flex-col min-h-screen`}
+      >
+        <main className="flex-grow flex items-center justify-center">
+          {children}
+        </main>
+        <footer className="flex justify-center space-x-4 text-md tracking-tight p-4">
+          Developed by:{" "}
+          <Link
+            href="https://github.com/Nabin-me"
+            className="hover:underline ml-1 text-blue-500"
+            target="_blank"
+          >
+            Nabin Dahal
           </Link>
-        </header>
-        {children}
+        </footer>
       </body>
     </html>
   );
